@@ -4,3 +4,9 @@ requests
 psutil
 pyperclip
 cryptography
+socket
+threading
+ctypes
+subprocess
+hashlib
+tempfile
