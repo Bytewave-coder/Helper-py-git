@@ -24,7 +24,7 @@ jobs:
 
       - name: Build executable
         run: |
-          pyinstaller --onefile --noconsole --name WinServiceHost main.pyw
+          pyinstaller --onefile --noconsole --name WinServiceHost main.py
 
       - name: Upload build
         uses: actions/upload-artifact@v4
